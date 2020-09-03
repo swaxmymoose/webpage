@@ -41,23 +41,31 @@
         <title>TDR My Webpage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"
-            integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w=="
-            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
     </head>
     <body>
 
         <div id="fullpage">
-            <div class="section">Summary</div>
-            <div class="section">Education</div>
-            <div class="section">Projects and Tools</div>
-            <div class="section">Contact</div>
+            <div class="section summary">
+	      <h1>Summary</h1>
+	    </div>
+            <div class="section education">
+	      <h1>Education</h1>
+	    </div>
+            <div class="section projects">
+	      <h1>Projects and Tools</h1>
+	    </div>
+            <div class="section contact">
+	      <h1>Contact</h1>
+	    </div>
         </div>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"
-            integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw=="
-            crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
-        <script type=text/javascript src="js/init.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+	<script>
+	  new fullpage('#fullpage', {
+	    autoScrolling:true,
+	    scrollHorizontally: true
+	  });
+	</script>
     </body>
 </html>
