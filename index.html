@@ -7,21 +7,79 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
     <body>
-
+	<nav>
+	  <a href="#page1">Contact</a>
+	  <a href="#page2">Development</a>
+	  <a href="#page3">Agile</a>
+	  <a href="#page4">Version Control</a>
+	  <a href="#page5">Group Experience</a>
+	  <a href="#page6">Hobbies & Interests</a>
+	</nav>
         <div id="fullpage">
-            <div class="section summary">
-	      <h1>Summary</h1>
+            <div class="section contact" data-anchor="page1">
+	      <!-- photo of me <img..-->
+	      <h1>Thomas Roff</h1>
+	      <h3>Contact me:</h3>
+	      <ul>
+		<li><img src="images/email.svg" alt="email" width="20px">thomasroff390@gmail.com</li>
+		<li><img src="images/phone.svg" alt="phone" width="20px">027 920 2082</li>
+	      </ul>
+	      <button id="cv">View CV PDF</button>
 	    </div>
-            <div class="section education">
-	      <h1>Education</h1>
+            <div class="section development" data-anchor="page2">
+		<div class="slide">
+		  <p>Project 1</p>
+		</div>
+		<div class="slide">
+		  <p>Project 2</p> 
+		</div>
+		<div class ="slide">
+		  <p>Project 3</p>
+		</div>
 	    </div>
-            <div class="section projects">
-	      <h1>Projects and Tools</h1>
+            <div class="section agile" data-anchor="page3"> 
+	      <h1>Agile Experience</h1>
+	      <p>
+		In two group projects within university we used the agile development method scrum, and worked in sprints to develop our software.
+		This methodology allowed us to work closely with the client and repeatedly iterate on the deliverable to produce the final product.
+	      </p>
 	    </div>
-            <div class="section contact">
-	      <h1>Contact</h1>
+            <div class="section vcs" data-anchor="page4">
+	      <h1>Version Control Experience</h1>
+	      <p>
+		Git and GitHub have been used for version control in all my personal and group projects.
+		I have experience with commits, pushing, merging, merge conflicts, pull requests and branching.
+	      </p>
+	    </div>
+	    <div class="section group" data-anchor="page5">
+              <h1>Group Experience</h1>
+	      <p>
+		In my third year of university I worked in two team environments to develop web apps over 6 weeks.
+		I learnt how to communicate effectively with others and how to develop in a team environment.
+
+		Other group projects I have worked on include: 
+	      </p>
+	      <ul>
+		<li>
+		    Human Computer Interation Project where we designed and protoyped an application for locating places to study.
+		    We employed usability heuristics...
+		</li>
+		<li>
+		   Lego Mind Storm.. 
+		</li>
+		<li>
+		  Effective programming etudes...
+		</li>
+	      </ul>
+            </div>
+	    <div class="section hobby" data-anchor="page6">
+	      <h1>Hobbies and Interests</h1>
+	      <ul>
+	      </ul>
 	    </div>
         </div>
         
@@ -32,5 +90,6 @@
 	    scrollHorizontally: true
 	  });
 	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"</script>
     </body>
 </html>
