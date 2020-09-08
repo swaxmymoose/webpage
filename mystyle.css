@@ -1,7 +1,6 @@
 body {
   background-color: lightblue;
 }
-
 .emailphone {
   margin-right: 35%;
   margin-left: 35%;
@@ -19,7 +18,7 @@ body {
   text-align: center;
 }
 
-.slide p {
+.slide p, a {
   padding-left: 10%;
   padding-right: 10%;
 }
